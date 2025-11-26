@@ -1,6 +1,6 @@
 import { FlexBetween, FlexColumn } from "@/styled-components/Flex.styles";
 import { Section } from "@/styled-components/Section.styles";
-import { flex, styled } from "@mui/system";
+import { styled } from "@mui/system";
 
 export const TotalContainer = styled(FlexColumn)({
   background: 'var(--color-gray-1)',

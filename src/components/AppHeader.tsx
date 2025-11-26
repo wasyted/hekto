@@ -45,10 +45,10 @@ const AppHeader = () => {
           </ContactField>
         </ContactContainer>
         <MenuContainer>
-          <LanguageSelector value={Language.english} onChange={function (newValue: string): void {
+          <LanguageSelector value={Language.english} onChange={function (_newValue: string): void {
             throw new Error("Function not implemented.");
           }} /> {/* Será implementado con Redux Toolkit mas adelante*/}
-          <CurrencySelector value={Currency.USD} onChange={function (newValue: string): void {
+          <CurrencySelector value={Currency.USD} onChange={function (_newValue: string): void {
             throw new Error("Function not implemented.");
           }} /> {/* Será implementado con Redux Toolkit mas adelante*/}
           <MenuLink>
